@@ -4,7 +4,7 @@ import { GetServerSideProps } from 'next';
 import { useTranslation } from 'next-i18next';
 import styles from '../events/best-courses-in-autumn.module.scss';
 import Image from 'next/image';
-import courseLogo from '../../assets/best-courses-in-autumn/BESTCoursesLogo.png';
+//import courseLogo from '../../assets/best-courses-in-autumn/BESTCoursesLogo.png';
 import { Row, Col, Tabs, Button, Collapse } from 'antd';
 import CourseSchedule from '../../components/BESTCourse/CourseSchedule';
 import SurvivalGuide from '../../components/BESTCourse/SurvivalGuide';
@@ -26,11 +26,13 @@ const BestCourse = () => {
   const { TabPane } = Tabs;
   return (
     <div>
+      /*
       <div className={styles.mainContainer}>
         <div className={styles.imageContainer}>
           <Image src={courseLogo} placeholder="blur" alt="course-logo" />
-        </div>
-      </div>
+         </div>
+       </div>
+      */
       <div>
         <Row justify="center">
           <Col xs={24} md={24}>
@@ -155,7 +157,7 @@ const BestCourse = () => {
 "
                     key="8"
                   >
-                    <p>The fee is 45 Euro.</p>
+                    <p>The fee is 64 Euro.</p>
                   </Panel>
 
                   <Panel
@@ -165,8 +167,7 @@ const BestCourse = () => {
                     key="10"
                   >
                     <p>
-                      Yes, we have a concept based on Avatar: The Last Airbender. It would be nice to have some
-                      knowledges about the concept before coming.
+                      Of course we do! The concept of our course is the Cars from Pixar Animation Studios.
                     </p>
                   </Panel>
                   <Panel
@@ -176,11 +177,14 @@ const BestCourse = () => {
                     key="11"
                   >
                     <p>
-                      Because our course is about Renewable Energy which has a vital importance to today&apos;s and
-                      future&apos;s world. Furthermore, the topic of our course is not for a specific field of study, so
-                      participants who are accepted to our course will be from different fields. For this reason, you
-                      will have a wide network, and be a part of a diverse environment. Moreover, with the concept of
-                      our course, original and enjoyable activities are waiting for you! Don’t lose time and apply
+                      Saying goodbye to McQueen and his friends is not  easy at all, and they will always
+                      remain in our memories, but technology is developing rapidly and it is time to get 
+                      acquainted with the world of electric cars. In this course, you can increase your 
+                      knowledge in this field without needing prior knowledge. So there's never been a better 
+                      time to equip yourself with the skills and insights needed to thrive in this dynamic 
+                      industry. Whether you're studying engineering or simply have a passion for sustainable 
+                      technology, this course will provide invaluable insights and practical knowledge that will 
+                      be so helpful for you in today’s world.
                     </p>
                   </Panel>
                   <Panel
@@ -192,8 +196,8 @@ const BestCourse = () => {
                     <p>Don’t hesitate to contact us!</p>
                     <p>By emails:</p>
                     <p>izmir@best-eu.org</p>
-                    <p>Main organizer: h.kubraaakorkmaz@gmail.com</p>
-                    <p>Pax Responsibles: iiiremyilmaz@gmail.com nvanessah97@gmail.com</p>
+                    <p>Main organizer: mahshad.ramezanabady@best-eu.org</p>
+                    <p>Pax Responsibles: melike.sahkulubey@best-eu.org meric.ipekkesen@best-eu.org</p>
                   </Panel>
                 </Collapse>
               </TabPane>
@@ -203,7 +207,7 @@ const BestCourse = () => {
                     <div className={styles.memberImg}>
                       <Image src={kubraImg} alt="kubra-img" />
 
-                      <h2>Kubra Korkmaz</h2>
+                      <h2>Mahshad Ramezanabady</h2>
                       <h3>Main Organizer</h3>
                     </div>
                   </div>
@@ -213,13 +217,13 @@ const BestCourse = () => {
                       <Col>
                         <div className={styles.multiMemberImg}>
                           <Image src={neslihanImg} alt="neslihan-img" />
-                          <h2>Neslihan Onal</h2>
+                          <h2>Meriç İpekkeser</h2>
                         </div>
                       </Col>
                       <Col>
                         <div className={styles.multiMemberImg}>
                           <Image src={iremImg} alt="irem-img" />
-                          <h2>Irem Yilmaz</h2>
+                          <h2>Melike Şahkulubey</h2>
                         </div>
                       </Col>
                     </Row>
@@ -229,34 +233,36 @@ const BestCourse = () => {
 
                   <div className={styles.memberImg}>
                     <Image src={yagmurImg} alt="yagmur-img" />
-                    <h2>Yagmur Gul</h2>
+                    <h2>Zeynep Demirci</h2>
                     <h3>PR Responsible</h3>
                   </div>
 
-                  <div className={styles.multiMember}>
-                    <Row gutter={32}>
-                      <Col md={24} lg={12}>
-                        <div className={styles.multiMemberImg}>
-                          <Image src={dogaImg} alt="doga-img" />
-                          <h2>Doga Tapan</h2>
-                        </div>
-                      </Col>
-                      <Col md={24} lg={12}>
-                        <div className={styles.multiMemberImg}>
-                          <Image src={dilaraImg} alt="dilara-img" />
-                          <h2>Dilara Dagli</h2>
-                        </div>
-                      </Col>
-                    </Row>
-                    <h3>Academic Responsibles</h3>
+                  <div className={styles.memberImg}>
+                    <Image src={yagmurImg} alt="yagmur-img" />
+                    <h2>Gökay Kömürcü</h2>
+                    <h3>Academic Responsible</h3>
+                  </div>
+                 
+                  <div className={styles.memberImg}>
+                    <Image src={efekanImg} alt="efekan-img" />
+                    <h2>İlayda Uyandı</h2>
+                    <h3>Activity Responsible</h3>
                   </div>
 
                   <div className={styles.memberImg}>
-                    <Image src={efekanImg} alt="efekan-img" />
-                    <h2>Efekan Yeter</h2>
-                    <h3>Activity Responsible</h3>
+                    <Image src={yagmurImg} alt="yagmur-img" />
+                    <h2>Serdar Emin Polat</h2>
+                    <h3>Food Responsible</h3>
+                  </div>
+
+                  <div className={styles.memberImg}>
+                    <Image src={yagmurImg} alt="yagmur-img" />
+                    <h2>Umut Öztürk</h2>
+                    <h3>FR&Logistic Responsible</h3>
                   </div>
                 </div>
+
+                
               </TabPane>
             </Tabs>
           </Col>
