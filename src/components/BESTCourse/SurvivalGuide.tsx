@@ -51,7 +51,7 @@ const SurvivalGuide = () => {
           </Affix>
         </div>
         <div>
-          <Button className={styles.button} href="/survival-guide.pdf" type="primary" icon={<AiOutlineDownload />}>
+          <Button className={styles.button} href="/new-survival-guide.pdf" type="primary" icon={<AiOutlineDownload />}>
             Download the Surival Guide!
           </Button>
         </div>
