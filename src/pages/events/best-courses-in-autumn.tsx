@@ -11,7 +11,7 @@ import SurvivalGuide from '../../components/BESTCourse/SurvivalGuide';
 import orangeLogo from '../../assets/best-courses-in-autumn/bcia-logo-orange.png';
 import applyText from '../../assets/best-courses-in-autumn/applyNowText.png';
 import deadlineImg from '../../assets/best-courses-in-autumn/deadline.png';
-import mashadIMG from '../../assets/best-courses-in-autumn/mahshad.jpg';
+import mahshadIMG from '../../assets/best-courses-in-autumn/mahshad.jpg';
 import mericIMG from '../../assets/best-courses-in-autumn/meric-ipekkeser.jpg';
 import melikeIMG from '../../assets/best-courses-in-autumn/melike-sahkulubey.jpg';
 import zeynepIMG from '../../assets/best-courses-in-autumn/zeynep-demirci.jpg';
