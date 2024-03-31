@@ -26,13 +26,13 @@ const BestCourse = () => {
   const { TabPane } = Tabs;
   return (
     <div>
-      /*
+      
       <div className={styles.mainContainer}>
         <div className={styles.imageContainer}>
           <Image src={courseLogo} placeholder="blur" alt="course-logo" />
          </div>
        </div>
-      */
+      
       <div>
         <Row justify="center">
           <Col xs={24} md={24}>
