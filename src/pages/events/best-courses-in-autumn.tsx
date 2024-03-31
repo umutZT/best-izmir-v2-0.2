@@ -44,15 +44,10 @@ const BestCourse = () => {
                   </div>
                   <div className={styles.courseDescriptionText}>
                     <div>
-                      <p>{t('courseDescription1')}</p>
-                      <p>{t('courseDescription2')}</p>
-                      <p>{t('courseDescription3')}</p>
-                      <p>{t('courseDescription4')}</p>
-                      <p>{t('courseDescription5')}</p>
-                      <p>{t('courseDescription6')}</p>
-                      <p>{t('courseDescription7')}</p>
-                      <p>{t('courseDescription8')}</p>
-                      <p>{t('courseDescription9')}</p>
+                      <p>{t('Buckle up and get charged up for a high-voltage adventure this autumn in Izmir! Get ready to hit the accelerator and spark your curiosity! Let’s "turn right to go left” cause the electrifying landscape of electric cars is waiting for you in the city where you can have the most memorable experiences in your life.')}</p>
+                      <p>{t(' Just like Lightning, electric cars are zipping into the  spotlight, offering a cleaner and greener way to hit the road. So from zero to hero, you&apos;ll explore the thrilling journey of sustainable transportation . It’s okay if you’re a pro behind the wheel or still learning the ropes, this course is your turbo boost into the world of automotive innovation!! ')}</p>
+                      <p>{t('So join us to explore the world of electrical cars and get ready one last time for the adventure of McQueen in the city of beauties. It is going to be hard, but it’s time to say:  “ You had a good run. Enjoy your retirement!!” ')}</p>
+        
                     </div>
                     <div className={styles.video}>
                       <iframe
