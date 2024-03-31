@@ -77,7 +77,7 @@ const BestCourse = () => {
                   </div>
                 </div>
               </TabPane>
-                <TabPane className={styles.tabContent} tab="Schedule" key="9">
+                <TabPane className={styles.tabContent} tab="Schedule" key="2">
                 <div className={styles.teamImgContainer}>
                   <div>
                     <div className={styles.memberImg}>
@@ -89,7 +89,7 @@ const BestCourse = () => {
                 </div>
                 
               </TabPane>
-              </TabPane>
+              
               <TabPane className={styles.tabContent} tab="Survival Guide" key="3">
                 <SurvivalGuide />
               </TabPane>
