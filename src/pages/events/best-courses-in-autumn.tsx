@@ -209,7 +209,7 @@ const BestCourse = () => {
                       <Col>
                         <div className={styles.multiMemberImg}>
                           <Image src={mericIMG} alt="meric-img" />
-                          <h2>Meriç İpekkeser</h2>
+                          <h2>Meriç İpekkesen</h2>
                         </div>
                       </Col>
                       <Col>
@@ -226,7 +226,7 @@ const BestCourse = () => {
                   <div className={styles.memberImg}>
                     <Image src={zeynepIMG} alt="zeynep-img" />
                     <h2>Zeynep Demirci</h2>
-                    <h3>PR Responsible</h3>
+                    <h3>PR&Design Responsible</h3>
                   </div>
 
                   <div className={styles.memberImg}>
