@@ -86,6 +86,7 @@ const BestCourse = () => {
               
                     </div>
                   </div>
+                </div>
                 
               </TabPane>
               </TabPane>
