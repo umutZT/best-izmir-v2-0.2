@@ -41,7 +41,7 @@ const BestCourse = () => {
               <TabPane className={styles.tabContent} tab="About Course" key="1">
                 <div className={styles.courseDescription}>
                   <div className={styles.courseHeader}>
-                    //<Image src={orangeLogo} alt="bica-logo" />
+                    
                   </div>
                   <div className={styles.courseDescriptionText}>
                     <div>
