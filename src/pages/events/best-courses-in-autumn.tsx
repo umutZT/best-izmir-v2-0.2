@@ -41,7 +41,7 @@ const BestCourse = () => {
               <TabPane className={styles.tabContent} tab="About Course" key="1">
                 <div className={styles.courseDescription}>
                   <div className={styles.courseHeader}>
-                    <Image src={orangeLogo} alt="bica-logo" />
+                    //<Image src={orangeLogo} alt="bica-logo" />
                   </div>
                   <div className={styles.courseDescriptionText}>
                     <div>
@@ -50,30 +50,10 @@ const BestCourse = () => {
                       <p>{t('So join us to explore the world of electrical cars and get ready one last time for the adventure of McQueen in the city of beauties. It is going to be hard, but it’s time to say:  “ You had a good run. Enjoy your retirement!!” ')}</p>
         
                     </div>
-                    <div className={styles.video}>
-                      <iframe
-                        width="1118"
-                        height="629"
-                        src="https://www.youtube.com/embed/0RneX_V4zm8"
-                        title="YouTube video player"
-                        frameBorder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowFullScreen
-                      ></iframe>
-                    </div>
-                    <div className={styles.applyImage}>
-                      <Image src={applyText} alt="apply-text" />
-                    </div>
-                    <Button
-                      className={styles.applyButton}
-                      type="primary"
-                      href="https://www.best.eu.org/event/details.jsp?activity=q0ovsau"
-                    >
-                      Press Here!
-                    </Button>
-                    <div className={styles.deadlineImage}>
-                      <Image src={deadlineImg} alt="deadline-img" />
-                    </div>
+                    
+                    
+                    
+                    
                   </div>
                 </div>
               </TabPane>
