@@ -71,7 +71,12 @@ const BestCourse = () => {
               </TabPane>
               
               <TabPane className={styles.tabContent} tab="Survival Guide" key="3">
-                <SurvivalGuide />
+                <div>
+          <Button className={styles.button} href="/new-survival-guide.pdf" type="primary" icon={<AiOutlineDownload />}>
+            Download the Surival Guide!
+          </Button>
+        </div>
+
               </TabPane>
               <TabPane className={styles.tabContent} tab="F.A.Q" key="4">
                 <Collapse defaultActiveKey={['1']}>
