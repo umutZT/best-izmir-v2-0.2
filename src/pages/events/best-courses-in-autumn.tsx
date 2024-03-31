@@ -4,21 +4,21 @@ import { GetServerSideProps } from 'next';
 import { useTranslation } from 'next-i18next';
 import styles from '../events/best-courses-in-autumn.module.scss';
 import Image from 'next/image';
-//import courseLogo from '../../assets/best-courses-in-autumn/BESTCoursesLogo.png';
+import courseLogo from '../../assets/best-courses-in-autumn/BESTCoursesLogo.png';
 import { Row, Col, Tabs, Button, Collapse } from 'antd';
 import CourseSchedule from '../../components/BESTCourse/CourseSchedule';
 import SurvivalGuide from '../../components/BESTCourse/SurvivalGuide';
 import orangeLogo from '../../assets/best-courses-in-autumn/bcia-logo-orange.png';
 import applyText from '../../assets/best-courses-in-autumn/applyNowText.png';
 import deadlineImg from '../../assets/best-courses-in-autumn/deadline.png';
-import kubraImg from '../../assets/best-courses-in-autumn/kubra-img.jpg';
-import yagmurImg from '../../assets/best-courses-in-autumn/yagmur-img.jpg';
-import neslihanImg from '../../assets/best-courses-in-autumn/neslihan-img.jpg';
-import iremImg from '../../assets/best-courses-in-autumn/irem-img.jpg';
-import dogaImg from '../../assets/best-courses-in-autumn/doga-img.jpg';
-import yesimEceImg from '../../assets/best-courses-in-autumn/yesimece-img.jpg';
-import dilaraImg from '../../assets/best-courses-in-autumn/dilara-img.jpg';
-import efekanImg from '../../assets/best-courses-in-autumn/efekan-img.jpg';
+import mashadIMG from '../../assets/best-courses-in-autumn/mahshad.jpg';
+import mericIMG from '../../assets/best-courses-in-autumn/meric-ipekkeser.jpg';
+import melikeIMG from '../../assets/best-courses-in-autumn/melike-sahkulubey.jpg';
+import zeynepIMG from '../../assets/best-courses-in-autumn/zeynep-demirci.jpg';
+import ilaydaIMG from '../../assets/best-courses-in-autumn/ilayda-uyandi.JPG';
+import serdarIMG from '../../assets/best-courses-in-autumn/serdar-emin-polat.jpg';
+import umutIMG from '../../assets/best-courses-in-autumn/umut-ozturk.jpg';
+import gokay from '../../assets/best-courses-in-autumn/gokay.jpg';
 
 const BestCourse = () => {
   const { t } = useTranslation('ac');
@@ -205,7 +205,7 @@ const BestCourse = () => {
                 <div className={styles.teamImgContainer}>
                   <div>
                     <div className={styles.memberImg}>
-                      <Image src={kubraImg} alt="kubra-img" />
+                      <Image src={mahshadIMG} alt="mahshad-img" />
 
                       <h2>Mahshad Ramezanabady</h2>
                       <h3>Main Organizer</h3>
@@ -216,13 +216,13 @@ const BestCourse = () => {
                     <Row gutter={32}>
                       <Col>
                         <div className={styles.multiMemberImg}>
-                          <Image src={neslihanImg} alt="neslihan-img" />
+                          <Image src={mericIMG} alt="meric-img" />
                           <h2>Meriç İpekkeser</h2>
                         </div>
                       </Col>
                       <Col>
                         <div className={styles.multiMemberImg}>
-                          <Image src={iremImg} alt="irem-img" />
+                          <Image src={melikeIMG} alt="melike-img" />
                           <h2>Melike Şahkulubey</h2>
                         </div>
                       </Col>
@@ -232,31 +232,31 @@ const BestCourse = () => {
                   </div>
 
                   <div className={styles.memberImg}>
-                    <Image src={yagmurImg} alt="yagmur-img" />
+                    <Image src={zeynepIMG} alt="zeynep-img" />
                     <h2>Zeynep Demirci</h2>
                     <h3>PR Responsible</h3>
                   </div>
 
                   <div className={styles.memberImg}>
-                    <Image src={yagmurImg} alt="yagmur-img" />
+                    <Image src={serdarIMG} alt="gokay-img" />
                     <h2>Gökay Kömürcü</h2>
                     <h3>Academic Responsible</h3>
                   </div>
                  
                   <div className={styles.memberImg}>
-                    <Image src={efekanImg} alt="efekan-img" />
+                    <Image src={ilaydaIMG} alt="ilayda-img" />
                     <h2>İlayda Uyandı</h2>
                     <h3>Activity Responsible</h3>
                   </div>
 
                   <div className={styles.memberImg}>
-                    <Image src={yagmurImg} alt="yagmur-img" />
+                    <Image src={serdarIMG} alt="serdar-img" />
                     <h2>Serdar Emin Polat</h2>
                     <h3>Food Responsible</h3>
                   </div>
 
                   <div className={styles.memberImg}>
-                    <Image src={yagmurImg} alt="yagmur-img" />
+                    <Image src={umutIMG} alt="umut-img" />
                     <h2>Umut Öztürk</h2>
                     <h3>FR&Logistic Responsible</h3>
                   </div>
