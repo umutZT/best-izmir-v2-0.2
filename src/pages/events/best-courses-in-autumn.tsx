@@ -15,10 +15,10 @@ import mashadIMG from '../../assets/best-courses-in-autumn/mahshad.jpg';
 import mericIMG from '../../assets/best-courses-in-autumn/meric-ipekkeser.jpg';
 import melikeIMG from '../../assets/best-courses-in-autumn/melike-sahkulubey.jpg';
 import zeynepIMG from '../../assets/best-courses-in-autumn/zeynep-demirci.jpg';
-import ilaydaIMG from '../../assets/best-courses-in-autumn/ilayda-uyandi.JPG';
+import ilaydaIMG from '../../assets/best-courses-in-autumn/ilayda-uyandi.jpg';
 import serdarIMG from '../../assets/best-courses-in-autumn/serdar-emin-polat.jpg';
 import umutIMG from '../../assets/best-courses-in-autumn/umut-ozturk.jpg';
-import gokay from '../../assets/best-courses-in-autumn/gokay.jpg';
+import gokayIMG from '../../assets/best-courses-in-autumn/gokay.jpg';
 
 const BestCourse = () => {
   const { t } = useTranslation('ac');
@@ -238,7 +238,7 @@ const BestCourse = () => {
                   </div>
 
                   <div className={styles.memberImg}>
-                    <Image src={serdarIMG} alt="gokay-img" />
+                    <Image src={gokayIMG} alt="gokay-img" />
                     <h2>Gökay Kömürcü</h2>
                     <h3>Academic Responsible</h3>
                   </div>
