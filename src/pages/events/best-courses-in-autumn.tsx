@@ -180,9 +180,9 @@ const BestCourse = () => {
                       Saying goodbye to McQueen and his friends is not  easy at all, and they will always
                       remain in our memories, but technology is developing rapidly and it is time to get 
                       acquainted with the world of electric cars. In this course, you can increase your 
-                      knowledge in this field without needing prior knowledge. So there's never been a better 
+                      knowledge in this field without needing prior knowledge. So there&apos;s never been a better 
                       time to equip yourself with the skills and insights needed to thrive in this dynamic 
-                      industry. Whether you're studying engineering or simply have a passion for sustainable 
+                      industry. Whether you&apos;re studying engineering or simply have a passion for sustainable 
                       technology, this course will provide invaluable insights and practical knowledge that will 
                       be so helpful for you in today’s world.
                     </p>
