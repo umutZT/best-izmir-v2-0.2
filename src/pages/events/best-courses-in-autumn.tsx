@@ -64,7 +64,7 @@ const BestCourse = () => {
                       type="primary"
                       href="https://youtu.be/PU4vAfyryvs"
                     >
-                      Watch our promo video!
+                      Click and Watch Trailier!
                     </Button>
 
         
@@ -79,7 +79,7 @@ const BestCourse = () => {
                       type="primary"
                       href="https://www.best.eu.org/courses/list.jsp"
                     >
-                      Press Here!
+                      Click and Apply!
                     </Button>
 
                     
