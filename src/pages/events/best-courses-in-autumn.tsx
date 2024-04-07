@@ -48,6 +48,7 @@ const BestCourse = () => {
               <Image src={guidoLogo} placeholder="blur" alt="guido-logo" />
                       </div>
                     </div>
+                  </div>
 
                     
                   <div className={styles.courseDescriptionText}>
@@ -77,7 +78,7 @@ const BestCourse = () => {
 
 
                     
-                    </div>
+                    
                   </div>
                 </div>
               </TabPane>
