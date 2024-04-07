@@ -8,9 +8,9 @@ import courseLogo from '../../assets/best-courses-in-autumn/BESTCoursesLogo.png'
 import { Row, Col, Tabs, Button, Collapse } from 'antd';
 import CourseSchedule from '../../components/BESTCourse/CourseSchedule';
 import SurvivalGuide from '../../components/BESTCourse/SurvivalGuide';
-import orangeLogo from '../../assets/best-courses-in-autumn/bcia-logo-orange.png';
-import applyText from '../../assets/best-courses-in-autumn/applyNowText.png';
-import deadlineImg from '../../assets/best-courses-in-autumn/deadline.png';
+import guidoLogo from '../../assets/best-courses-in-autumn/guido-logo.png';
+import applyText from '../../assets/best-courses-in-autumn/apply-now-text.png';
+import deadlineImg from '../../assets/best-courses-in-autumn/deadline-photo.png';
 import mahshadIMG from '../../assets/best-courses-in-autumn/mahshad.jpg';
 import mericIMG from '../../assets/best-courses-in-autumn/meric-ipekkeser.jpg';
 import melikeIMG from '../../assets/best-courses-in-autumn/melike-sahkulubey.jpg';
@@ -43,7 +43,13 @@ const BestCourse = () => {
                 <div className={styles.courseDescription}>
                   <div className={styles.courseHeader}>
                     
+                    <div className={styles.mainContainer}>
+                    <div className={styles.imageContainer}>
+              <Image src={guidoLogo} placeholder="blur" alt="guido-logo" />
+                    </div>
                   </div>
+
+                    
                   <div className={styles.courseDescriptionText}>
                     <div>
                       <p>{t('Buckle up and get charged up for a high-voltage adventure this autumn in Izmir! Get ready to hit the accelerator and spark your curiosity! Let’s "turn right to go left” cause the electrifying landscape of electric cars is waiting for you in the city where you can have the most memorable experiences in your life.')}</p>
@@ -52,9 +58,26 @@ const BestCourse = () => {
         
                     </div>
                     
+                    <div className={styles.applyImage}>
+                      <Image src={applyText} alt="apply-text" />
+                    </div>
+
+                    <Button
+                      className={styles.applyButton}
+                      type="primary"
+                      href="https://www.best.eu.org/courses/list.jsp"
+                    >
+                      Press Here!
+                    </Button>
+
                     
+                    <div className={styles.deadlineImage}>
+                      <Image src={deadlineImg} alt="deadline-img" />
+                    </div>
+
+
                     
-                    
+      
                   </div>
                 </div>
               </TabPane>
