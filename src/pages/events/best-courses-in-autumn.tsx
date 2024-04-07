@@ -59,6 +59,14 @@ const BestCourse = () => {
         
                     </div>
 
+                    <Button
+                      className={styles.applyButton}
+                      type="primary"
+                      href="https://youtu.be/PU4vAfyryvs"
+                    >
+                      Watch our promo video!
+                    </Button>
+
                     <div className={styles.video}>
                       <iframe
                         width="1118"
