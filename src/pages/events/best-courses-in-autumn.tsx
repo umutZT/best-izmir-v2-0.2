@@ -67,17 +67,7 @@ const BestCourse = () => {
                       Watch our promo video!
                     </Button>
 
-                    <div className={styles.video}>
-                      <iframe
-                        width="1118"
-                        height="629"
-                        src="https://youtu.be/PU4vAfyryvs"
-                        title="YouTube video player"
-                        frameBorder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowFullScreen
-                      ></iframe>
-                    </div>
+        
 
                     
                     <div className={styles.applyImage}>
