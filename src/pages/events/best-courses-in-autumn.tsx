@@ -8,9 +8,9 @@ import courseLogo from '../../assets/best-courses-in-autumn/BESTCoursesLogo.png'
 import { Row, Col, Tabs, Button, Collapse } from 'antd';
 import CourseSchedule from '../../components/BESTCourse/CourseSchedule';
 import SurvivalGuide from '../../components/BESTCourse/SurvivalGuide';
-import guidoLogo from '../../assets/best-courses-in-autumn/guido-logo.png';
-import applyText from '../../assets/best-courses-in-autumn/apply-now-text.png';
-import deadlineImg from '../../assets/best-courses-in-autumn/deadline-photo.png';
+import guidoLogo from '../../assets/best-courses-in-autumn/last-guido-logo.png';
+import applyText from '../../assets/best-courses-in-autumn/last-apply-now-text.png';
+import deadlineImg from '../../assets/best-courses-in-autumn/last-deadline-photo.png';
 import mahshadIMG from '../../assets/best-courses-in-autumn/mahshad.jpg';
 import mericIMG from '../../assets/best-courses-in-autumn/meric-ipekkeser.jpg';
 import melikeIMG from '../../assets/best-courses-in-autumn/melike-sahkulubey.jpg';
