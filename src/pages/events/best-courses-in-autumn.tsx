@@ -64,7 +64,7 @@ const BestCourse = () => {
                       type="primary"
                       href="https://youtu.be/PU4vAfyryvs"
                     >
-                      Click and Watch Trailier!
+                      Click and Watch Trailer!
                     </Button>
 
         
