@@ -19,7 +19,7 @@ import ilaydaIMG from '../../assets/best-courses-in-autumn/ilayda-uyandi.jpg';
 import serdarIMG from '../../assets/best-courses-in-autumn/serdar-emin-polat.jpg';
 import umutIMG from '../../assets/best-courses-in-autumn/umut-ozturk.jpg';
 import gokayIMG from '../../assets/best-courses-in-autumn/gokay.jpg';
-import scheduleIMG from '../../assets/best-courses-in-autumn/[BCiA’24][BEST Izmir]Schedule.jpg';
+import scheduleIMG from '../../assets/best-courses-in-autumn/[BCiA’24]lastSchedule.jpg';
 import { AiOutlineDownload } from 'react-icons/ai';
 
 const BestCourse = () => {
