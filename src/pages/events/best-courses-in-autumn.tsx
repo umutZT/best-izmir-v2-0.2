@@ -58,6 +58,19 @@ const BestCourse = () => {
                       <p>{t('So join us to explore the world of electrical cars and get ready one last time for the adventure of McQueen in the city of beauties. It is going to be hard, but it’s time to say:  “ You had a good run. Enjoy your retirement!!” ')}</p>
         
                     </div>
+
+                    <div className={styles.video}>
+                      <iframe
+                        width="1118"
+                        height="629"
+                        src="https://youtu.be/PU4vAfyryvs"
+                        title="YouTube video player"
+                        frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                      ></iframe>
+                    </div>
+
                     
                     <div className={styles.applyImage}>
                       <Image src={applyText} alt="apply-text" />
