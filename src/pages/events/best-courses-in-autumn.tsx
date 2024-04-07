@@ -62,7 +62,7 @@ const BestCourse = () => {
                     <Button
                       className={styles.applyButton}
                       type="primary"
-                      href="https://youtu.be/PU4vAfyryvs"
+                      href="https://youtu.be/b1A_ogdPYdI"
                     >
                       Click and Watch Trailer!
                     </Button>
