@@ -4,7 +4,7 @@ import { GetServerSideProps } from 'next';
 import { useTranslation } from 'next-i18next';
 import styles from '../events/best-courses-in-autumn.module.scss';
 import Image from 'next/image';
-import courseLogo from '../../assets/best-courses-in-autumn/BESTCoursesLogo.png';
+import courseLogo from '../../assets/best-courses-in-autumn/BEST-Courses-Logo-Black.png';
 import { Row, Col, Tabs, Button, Collapse } from 'antd';
 import CourseSchedule from '../../components/BESTCourse/CourseSchedule';
 import SurvivalGuide from '../../components/BESTCourse/SurvivalGuide';
